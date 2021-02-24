@@ -1,5 +1,5 @@
 {% set name = "meshplex" %}
-{% set version = "0.15.8" %}
+{% set version = "0.15.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/nschloe/meshplex/archive/v{{ version }}.tar.gz
-  sha256: 020bf4b6c9386fdb55cfa6def4743de7c302fa3cbcf2a9425c0c78cd172aa1e9
+  sha256: d728fb33f01168d8e46bbe9c4c90819dd9a536a29b8a879e90ed3e0f50c2d426
 
 build:
   number: 0
