@@ -1,6 +1,7 @@
 {% set name = "meshplex" %}
 {% set version = "0.15.12" %}
 
+
 package:
   name: {{ name|lower }}
   version: {{ version }}
@@ -17,10 +18,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - importlib_metadata
-    - python
+    - python >=3.6
     - numpy >=1.9
     - scipy
     - meshio >=4,<5
