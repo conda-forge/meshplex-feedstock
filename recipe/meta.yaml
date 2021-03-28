@@ -20,7 +20,7 @@ requirements:
     - python >=3.6
   run:
     - importlib_metadata
-    - python >= 3.6
+    - python >=3.6
     - numpy >=1.9
     - scipy
     - meshio >=4,<5
