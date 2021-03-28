@@ -17,10 +17,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
     - importlib_metadata
-    - python
+    - python >= 3.6
     - numpy >=1.9
     - scipy
     - meshio >=4,<5
